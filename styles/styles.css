@@ -1,10 +1,11 @@
 body {
    font-family: 'Montserrat', sans-serif;
+   background-color: #f5f7fa;
 }
 .main {
    display: flex;
    flex-direction: row-reverse;
-   background-color: #f5f7fa;
+   
    width: 1200px;
    margin: 0 auto;
 }
@@ -14,24 +15,101 @@ body {
 
 .main-content {
    background-color: #ffff;
+   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+   padding: 105px 90px;
 }
+/* about styles */
 .about {
-   
+   margin-bottom: 40px;
 }
+
+.about-position {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   color: #000000;
+   margin-bottom: 20px;
+}
+
+.about-name {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 55px;
+   color: #000000;
+   margin-bottom: 25px;
+}
+
+.about-description {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+   width: 400px;
+}
+
+/*Projects styles*/
+
 .projects {
    
-   margin-top: 100px;
-   margin-bottom: 200px;
-   margin-left: 50px;
-   margin-right: 90px;
+  
 }
+
+
+
+.title {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 27px;
+   color: #000000;
+   margin-bottom: 10px;
+}
+
+.projects-list {
+   padding: 0;
+   margin-left: 15px;
+}
+
+.projects-item {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 24px;
+   color: #000000;
+}
+
+.project,
+.project-link {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+}
+
+.project-link {
+   margin-left: 10px;
+}
+
+.project-bracket {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 24px;
+   color: #000000;
+}
+
+
+
+/* work styles */
 .work {
    
-   padding-top: 100px;
-   padding-bottom: 200px;
-   padding-left: 20px;
-   padding-right: 30px;
 }
+
+
 .education {
    
 }
